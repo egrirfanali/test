@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activity_Main"
+    android:orientation="vertical"
+    android:gravity="center" >
+    
+    
+
+    <Button
+        android:id="@+id/btnPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_phone_number" />
+
+    <Button
+        android:id="@+id/btnFb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+
+        android:text="@string/com_facebook_loginview_log_in_button"
+        android:textColor="@color/com_facebook_loginview_text_color"
+        android:textSize="@dimen/com_facebook_loginview_text_size"
+        android:textStyle="bold"
+
+        android:background="@drawable/com_facebook_button_blue"
+        android:drawableLeft="@drawable/com_facebook_inverse_icon"
+        android:drawablePadding="@dimen/com_facebook_likebutton_compound_drawable_padding"
+        android:paddingLeft="@dimen/com_facebook_loginview_padding_left"
+        android:paddingTop="@dimen/com_facebook_loginview_padding_top"
+        android:paddingRight="@dimen/com_facebook_loginview_padding_right"
+        android:paddingBottom="@dimen/com_facebook_loginview_padding_bottom"
+        />
+
+</LinearLayout>
